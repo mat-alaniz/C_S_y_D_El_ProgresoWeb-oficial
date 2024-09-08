@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Poetsen+One&family=Sedan+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15+Charted&family=Jersey+25+Charted&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(46, 159, 240, 0.804);
+  position: fixed;
+  width: 100%;
+}
+
+.encabezado p {
+  text-align: left;
+  color: rgb(3, 3, 151);
+  margin-left: 20px;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.encabezado .menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-right: 40px;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+.encabezado .menu a:hover {
+  color: rgb(255, 253, 253);
+  background-color:  rgba(46, 159, 240, 0.804);
+  border-radius: 5px;
+}
+
+.principal img {
+  width: 100vw;
+  height: 100vh;
+}
+.principal h1 {
+  font-size: 55px;
+  color: rgb(60, 3, 248);
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 10px black;
+}
+.principal a {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+}
+.principal .boton {
+  text-decoration: none;
+  color: white;
+  font-family: "Jersey 15 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(37, 1, 243);
+  border-radius: 5px;
+  font-size: 75px;
+  left: 33%;
+}
+.principal .boton:hover {
+  color: rgb(17, 0, 69);
+  background-color: white;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  padding: 120px;
+  margin: 50px;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+.imagen {
+  width: 300px;
+  margin-right: 25px;
+  border-radius: 25px;
+}
+.contenedor h2 {
+  color: blue;
+}
+.actividades {
+  background-color: rgb(28, 28, 28);
+  width: 100vw;
+  height: 850px;
+}
+.actividades h2 {
+  text-align: center;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+}
+.actividades .contenedor2 {
+  display: flex;
+  justify-content: space-around;
+}
+.actividades .tarjetas {
+  background-color: rgb(20, 127, 250);
+  width: 200px;
+  height: 500px;
+  margin: 80px;
+  border-radius: 15px;
+}
+.tarjetas img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+.tarjetas h3 {
+  text-align: center;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.tarjetas p {
+  text-align: center;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tarjetas a{
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 70px;
+}
+.tarjetas a:hover{
+  color: blue;
+  background-color: white;
+  border-radius: 5px;
+}
+.servicios{
+background-color: rgb(97, 190, 248);
+  width: 100vw;
+  height: 700px;
+}
+.cajon{
+display: flex;
+justify-content: center;
+}
+
+.foto2{
+width: 500px;
+height: 350px;
+margin-left: 300px;
+margin-top: 150px;
+
+}
+.lista{
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  font-size: 25px;
+  margin-top: 150px;
+  line-height: 3;
+}
+.lista ul{
+  list-style-type:none
+}
+.ultimasection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 35, 62);
+  width: 100vw;
+  height: 400px;
+  flex-direction: column;
+}
+.ultimasection h2{
+  color: white;
+  text-align:center;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.ultimasection .boton2{
+background-color: rgb(3, 3, 151);
+color: white;
+text-decoration: none;
+padding: 20px 40px;
+border-radius: 10px;
+font-size: 25px;
+box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+.ultimasection .boton2:hover{
+  background-color:rgb(97, 190, 248);
+  color: black;
+}
+.footer{
+text-align: right;
+margin-top: 15px;
+font-size: 22px;
+}
